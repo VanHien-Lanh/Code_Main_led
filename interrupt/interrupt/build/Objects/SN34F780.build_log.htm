@@ -1,0 +1,85 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.31.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: jfjfjjf djjd djdj jdjd kd , acbf touota, LIC=D0D7S-LX95Q-740S0-BV3GK-ANN0W-52A25
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.31.0.0
+Toolchain Path:  D:\User_App\Kelic_Arm_V5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.14
+Assembler:       Armasm.exe V6.14
+Linker/Locator:  ArmLink.exe V6.14
+Library Manager: ArmAr.exe V6.14
+Hex Converter:   FromElf.exe V6.14
+CPU DLL:         SARMCM3.DLL V5.31.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      SNLINK\SNLINK.dll V1.0.0.4
+Dialog DLL:      TCM.DLL V1.46.0.0
+ 
+<h2>Project:</h2>
+C:\Sonix\Platform_SDK\SN34F780\V2.1.3\SDK\HAL\Samples\GPIO\interrupt\interrupt\build\interrupt.uvprojx
+Project File Date:  09/28/2025
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.14', folder: 'D:\User_App\Kelic_Arm_V5\ARM\ARMCLANG\Bin'
+Rebuild Project 'interrupt' - Target 'Target 1'
+compiling sn34f78x_hal_flash.c...
+compiling init.c...
+compiling sn34f78x_hal_rcc.c...
+compiling main.c...
+compiling sn34f78x_it.c...
+compiling sn34f78x_hal_msp.c...
+compiling sn34f78x_hal_flash_ex.c...
+compiling sn34f78x_hal_assert.c...
+assembling startup_SN34F780.s...
+compiling sn34f78x_hal.c...
+compiling my_stubs.c...
+compiling sn34f78x_hal_scu.c...
+compiling sn34f78x_hal_systick.c...
+compiling sn34f78x_hal_gpio.c...
+compiling system_SN34F780.c...
+linking...
+Program Size: Code=2060 RO-data=488 RW-data=8 ZI-data=1096  
+FromELF: creating hex file...
+After Build - User command #1: HexConvert.exe SN34F780 "C:\Sonix\Platform_SDK\SN34F780\V2.1.3\SDK\HAL\Samples\GPIO\interrupt\interrupt\build\Objects\SN34F780.HEX" RW
+Begin Hex Live Update
+Connect to http://liveupdate.sonix.com.tw/sonix/develop_tool/MCU
+INI_Ver = V47
+EXE_Ver = V30
+CheckSum = 0x1C17
+".\Objects\SN34F780.axf" - 0 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.7.0.pack
+                ARM.CMSIS.5.7.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.4.0
+
+Package Vendor: SONiX
+                https://liveupdate.sonix.com.tw/sonix/develop_tool/MCU/DFP/SONiX.SN34F7_DFP.2.0.4.pack
+                SONiX.SN34F7_DFP.2.0.4
+                SONiX SN34F7 Series Device Support and Examples
+   * Component: Startup Version: 2.0.2
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  D:\User_App\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include
+  D:\User_App\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.4.0
+
+   * Component: SONiX::Device:Startup:2.0.2
+      Source file:   Device\Source\system_SN34F780.c
+      Source file:   Device\Source\ARM\startup_SN34F780.s
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>

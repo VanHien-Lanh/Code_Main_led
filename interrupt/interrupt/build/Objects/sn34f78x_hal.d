@@ -1,0 +1,32 @@
+./objects/sn34f78x_hal.o: \
+  ..\..\..\..\..\Peripherals\Source\sn34f78x_hal.c \
+  ..\..\..\..\..\Com\sn34f78x_hal.h ..\include\sn34f78x_hal_conf.h \
+  ..\..\..\..\..\Peripherals\Include\hal_systick.h \
+  ..\..\..\..\..\Com\sn34f78x_hal_def.h \
+  ..\..\..\..\..\Com\sn34f78x_def.h \
+  D:\User_App\Kelic_Arm_V5\ARM\ARMCLANG\Bin\..\include\stddef.h \
+  D:\User_App\Kelic_Arm_V5\ARM\ARMCLANG\Bin\..\include\stdint.h \
+  D:\User_App\Kelic_Arm_V5\ARM\ARMCLANG\Bin\..\include\stdbool.h \
+  D:\User_App\Kelic_Arm_V5\ARM\ARMCLANG\Bin\..\include\string.h \
+  D:\User_App\Kelic_Arm_V5\ARM\ARMCLANG\Bin\..\include\stdio.h \
+  D:\User_App\Kelic_Arm_V5\ARM\ARMCLANG\Bin\..\include\stdlib.h \
+  D:\User_App\Kelic_Arm_V5\ARM\ARMCLANG\Bin\..\include\stdarg.h \
+  D:\User_App\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include\SN34F780.h \
+  D:\User_App\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h \
+  D:\User_App\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h \
+  D:\User_App\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h \
+  D:\User_App\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h \
+  D:\User_App\Kelic_Arm_V5\ARM\ARMCLANG\Bin\..\include\arm_compat.h \
+  D:\User_App\Kelic_Arm_V5\ARM\ARMCLANG\Bin\..\include\arm_acle.h \
+  D:\User_App\Kelic_Arm_V5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h \
+  D:\User_App\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include\system_SN34F780.h \
+  ..\..\..\..\..\Peripherals\Include\hal_scu.h \
+  ..\..\..\..\..\Peripherals\Include\hal_gpio.h \
+  ..\..\..\..\..\Peripherals\Include\hal_gpio_ex.h \
+  ..\..\..\..\..\Peripherals\Include\hal_rcc.h \
+  D:\User_App\Kelic_Arm_V5\Arm\Packs\SONiX\SN34F7_DFP\2.0.4\Device\Include\SN34F700_Def.h \
+  ..\..\..\..\..\Peripherals\Include\hal_flash.h \
+  ..\..\..\..\..\Peripherals\Include\hal_flash_ex.h \
+  ..\..\..\..\..\..\..\Board\sn34f78x_board.c \
+  ..\..\..\..\..\..\..\Board\sn34f78x_board.h \
+  ..\..\..\..\..\Com\retarget_io.c

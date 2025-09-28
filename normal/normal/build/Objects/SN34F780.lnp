@@ -1,0 +1,19 @@
+--cpu=Cortex-M4.fp.sp
+".\objects\main.o"
+".\objects\sn34f78x_it.o"
+".\objects\sn34f78x_hal_msp.o"
+".\objects\init.o"
+".\objects\sn34f78x_hal_rcc.o"
+".\objects\sn34f78x_hal_flash.o"
+".\objects\sn34f78x_hal_flash_ex.o"
+".\objects\sn34f78x_hal_assert.o"
+".\objects\sn34f78x_hal_gpio.o"
+".\objects\sn34f78x_hal_scu.o"
+".\objects\sn34f78x_hal.o"
+".\objects\sn34f78x_hal_systick.o"
+".\objects\startup_sn34f780.o"
+".\objects\system_sn34f780.o"
+--library_type=microlib --strict --scatter ".\Objects\SN34F780.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\SN34F780.map" -o .\Objects\SN34F780.axf
